@@ -21,7 +21,9 @@ end
 xs = []
 vs = []
 
-0.upto(M-1) do |i|
+xs[0] = Vector[0.0, 0.0]
+vs[0] = Vector[0.0, 0.0]
+1.upto(M-1) do |i|
   xs[i] = Vector[6*rand-3, 6*rand-3]
   vs[i] = Vector[rand-0.5, rand-0.5]
 end
