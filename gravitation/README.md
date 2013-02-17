@@ -1,5 +1,4 @@
 #[20130217]Basic Gravitation
 
 ## Gravitation Equation
-![equation](http://latex.codecogs.com/gif.latex?G%c2%a5frac%7bmM%7d%7br%5e2%7d)
-
+![equation](http://latex.codecogs.com/gif.latex?G%5Cfrac%7BmM%7D%7Br%5E2%7D)
