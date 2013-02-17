@@ -48,6 +48,9 @@
 > > GitHubの場合、1行前に空の引用が無いと、正しくマークアップされません。
  
 ライセンス
+
+![equation](http://latex.codecogs.com/gif.latex?1%2Bsin%28mc%5E2%29%0D%0A)
+
 ----------
 Copyright &copy; 2011 xxxxxx
 Licensed under the [Apache License, Version 2.0][Apache]
