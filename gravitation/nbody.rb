@@ -4,13 +4,13 @@ include Math
 N = 1000
 tmax = 100.0
 dt = tmax/N
-M = 5
+M = 50
 
 def f(x, xs)
   force = Vector[0.0, 0.0]
   xs.each do |y|
     next if x == y
-    force += (x-y) * -1 / ((x-y).r + 0.1)**3
+    force += (y-x) / ((y-x).r + 0.1)**3
   end
   force
 end
