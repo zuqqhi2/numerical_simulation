@@ -29,11 +29,9 @@ vs[0] = Vector[0.0, 0.0]
 end
 
 m1 = []
-0.upto(M-1) do |i|
+m1[0] = 5.0
+1.upto(M-1) do |i|
   m1[i] = 1.0
-  if i == 0 then
-    m1[i] = 100.0
-  end
 end
 
 puts M
