@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			window.onload = function() {
+				var canvas = document.getElementById("canvas");
+				var context = canvas.getContext("2d");
+
+				context.clearRect(0, 0, 500, 500);
+
+				
+				context.arc(60,65,5,0,Math.PI*2,true);
+
+				context.strokeRect(20, 10, 260, 130);
+				context.fillRect(50, 30, 200, 90);
+			};
+		</script>
+	</head>
+	<body>
+		<canvas id="canvas" width = "500" height="500"></canvas>
